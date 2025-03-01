@@ -1,0 +1,22 @@
+{
+  "name": "cvite",
+  "type": "module",
+  "scripts": {
+    "codepark": "bun ./config/bun-watch-civet.ts",
+    "codepark:compile": "bun build --compile config/bun-watch-civet --outfile watch-civet"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^17.1.8",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@danielx/civet": "^0.9.7"
+  },
+  "bun-create": {
+    "preinstall": "",
+    "postinstall": ""
+  }
+}
