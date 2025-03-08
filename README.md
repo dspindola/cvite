@@ -35,4 +35,6 @@ bun run build
 ```
 
 ```sh
-Bun. i
+# Compile the CLI
+Bun. install
+```
