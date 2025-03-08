@@ -1,1 +1,1 @@
-preload = ["@danielx/civet/bun-civet", "./bun.config.ts"]
+preload = ["@danielx/civet/bun-civet"]

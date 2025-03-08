@@ -1,0 +1,16 @@
+{
+  "parseOptions": {
+    "tab": 2,
+    "objectIs": true,
+    "implicitReturns": false,
+    "globals": [
+      "Bun"
+    ],
+    "react": true,
+    "client": true,
+    "server": true
+  },
+  "noCache": false,
+  "threads": 2,
+  "sourceMap": false
+}
