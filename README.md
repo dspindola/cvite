@@ -26,3 +26,13 @@ bun prepare
 
 ```sh
 # start dev environment
+bun dev
+```
+
+```sh
+# run build
+bun run build
+```
+
+```sh
+Bun. i
