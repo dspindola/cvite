@@ -1,0 +1,8 @@
+import { createRoot } from "react-dom/client"
+{ App } from ./App
+root .= document.getElementById(
+     "root"
+)!;
+
+createRoot root
+    |> .render <App/>

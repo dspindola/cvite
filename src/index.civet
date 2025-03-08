@@ -1,0 +1,13 @@
+{ serve } from bun
+app from "./index.html"
+
+serve({
+    routes: {
+        "/*": app
+    },
+    port: 3000,
+    development: true
+})
+    |> (server) -> {
+         server.url |> console.log;
+    }
